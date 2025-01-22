@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Webkit browsers (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+  width: 10px; /* Slightly wider for better visibility */
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 20px; /* Increased border radius */
+  margin: 5px; /* Added margin for floating effect */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px; /* Increased border radius */
+  border: 3px solid transparent; /* Creates padding effect */
+  background-clip: padding-box; /* Ensures the border is transparent */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.05);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white tracking-tight rounded-lg px-4 py-2;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-black tracking-tight rounded-lg px-4 py-2;
+  }
+  .container {
+    @apply max-w-[1990px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  .logo-item {
+    @apply h-8 md:h-12 w-auto;
+  }
+  .tag-style {
+    @apply text-sm inline-flex border border-[#222]/10 py-1 px-3 rounded-lg tracking-tight;
+  }
+  .title-style {
+    @apply text-5xl md:text-6xl py-2 font-bold  bg-clip-text text-transparent bg-gradient-to-b from-black  to-[#001e80];
+  }
+  .sub-title-style {
+    @apply text-xl md:text-2xl text-[#010d3e] tracking-tight;
+  }
+  .nice-shadow {
+    @apply rounded-3xl shadow-[0_7px_14px_#eaeaea] border border-[#f1f1f1];
+  }
+  .items-effect {
+    @apply [mask-image:linear-gradient(to_right,transparent,black,transparent)];
+  }
+  .items-effect2 {
+    @apply [mask-image:linear-gradient(to_bottom,transparent,black,transparent)];
+  }
+  .icon-btn-style {
+    @apply cursor-pointer relative p-3 rounded-full transition-all duration-200 
+    hover:bg-black/5 active:bg-black/10
+    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500
+    transform active:scale-95;
+  }
+}

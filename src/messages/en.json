@@ -1,0 +1,93 @@
+{
+  "home": {
+    "title": "Landing page",
+    "description": "Template created by Frontend Tribe"
+  },
+  "header": {
+    "title": "Get started for free",
+    "sub-title": "Streamline your workflow and boost your productivity with our intuitive app.",
+    "partners": "Partners",
+    "product": "Product",
+    "customers": "Customers",
+    "start-now": "Start now",
+    "pricing": "Pricing",
+    "get-for-free": "Get for free"
+  },
+  "hero": {
+    "tag": "Version 2.0 is here.",
+    "title": "Pathway to productivity",
+    "sub-title": "Celebrate the joy of accomplishment with an app designed to track your progress, and celebrate your success.",
+    "primary-button": "Get started for free",
+    "secondary-button": "Learn more"
+  },
+  "productShowCase": {
+    "tag": "Boost your productivity",
+    "title": "A more effective way to track progress",
+    "sub-title": "Effortlessly turn your ideas into a fully functional, responsive, Sass Website in just minutes with this template"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "sub-title": "Free forever, Upgrade for unlimited tasks, better security, and exclusive features.",
+    "Get for free": "Get for free",
+    "Sign Up Now": "Sign Up Now",
+    "free": "Free",
+    "up-to-5-project-member": "Up to 5 projects members",
+    "unlimited-tasks-and-projects": "Unlimited tasks and projects",
+    "2GB storage": "2GB storage",
+    "Integrations": "Integrations",
+    "Basic support": "Basic support",
+    "pro": "Pro",
+    "Up to 50 projects members": "Up to 50 projects members",
+    "50GB storage": "50GB storage",
+    "Priority support": "Priority support",
+    "Advanced support": "Advanced support",
+    "Export support": "Export support",
+    "Business": "Business",
+    "200GB storage": "200GB storage",
+    "Dedicated account manager": "Dedicated account manager",
+    "Custom fields": "Custom fields",
+    "Advanced analytics": "Advanced analytics",
+    "Export capabilities": "Export capabilities",
+    "API access": "API access",
+    "Advanced security features": "Advanced security features",
+    "month": "month",
+    "popular": "Popular",
+    "Pro": "Pro",
+    "Free": "Free"
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "sub-title": "From intuitive design to powerful features, our app has become an essential tool for users around the world.",
+    "@jamietechguru00": "As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.",
+    "@jjsmith": "Our team's productivity has skyrocketed since we started using this tool.",
+    "@morganleewhiz": "This app has completely transformed how I manage my projects and deadlines.",
+    "@caseyj": "I was amazed at how quickly we were able to integrate this app into our workflow.",
+    "@taylorkimm": "Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.",
+    "@rileysmith1": "The customizability and integration capabilities of this app are top-notch.",
+    "@jpatelsdesign": "Adopting this app for our team has streamlined our project management and improved communication across the board.",
+    "@dawsontechtips": "With this app, we can easily assign tasks, track progress, and manage documents all in one place.",
+    "@casey09": "Its user-friendly interface and robust features support our diverse needs.",
+    "tag": "Version 2.0 is here."
+  },
+  "callToAction": {
+    "title": "Sign up for free today",
+    "sub-title": "Join thousands of users who have already streamlined their workflow with our app.",
+    "primary-button": "Get for free",
+    "secondary-button": "Learn more"
+  },
+  "footer": {
+    "about": "About",
+    "features": "Features",
+    "customers": "Customers",
+    "updates": "Updates",
+    "help": "Help",
+    "copyright": "Copyright @",
+    "all-rights-reserved": "All rights reserved.",
+    "prices": "Pricing",
+    "home": "Home",
+    "partners": "Partners",
+    "product": "Product",
+    "start-now": "Start now",
+    "pricing": "Pricing"
+  }
+}

@@ -16,7 +16,7 @@ const poppins = localFont({
 });
 export const metadata: Metadata = {
   title: "Light Saas Landing Page",
-  description: "Template created by Frontend Tribe",
+  description: "Template created by Mohamed elsayed",
 };
 
 export default async function RootLayout({
